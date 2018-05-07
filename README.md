@@ -11,7 +11,12 @@ Example of script launch on Linux, Python 3.5:
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+# [<Recursion on list with id=...>,
+ 'spam',
+ 'eggs',
+ 'lumberjack',
+ 'knights',
+ 'ni']
 
 ```
 
