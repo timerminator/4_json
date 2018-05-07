@@ -1,13 +1,15 @@
 import json
+import pprint
 
 
 def load_data(filepath):
-    pass
+    with open(filepath, encoding='utf-8') as file:
+        return json.load(file)
 
 
 def pretty_print_json(data):
-    pass
+    pprint.pprint(data)
 
 
 if __name__ == '__main__':
-    pass
+    pretty_print_json(load_data(input("Input path: ")))
