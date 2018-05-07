@@ -1,9 +1,9 @@
 # Prettify JSON
 
 [TODO. There will be project description]
+This script, which takes the input to a file with arbitrary data in JSON format, and displays its content in the console in an easy-to-read form: adds line breaks, left indents and spaces.
 
 # Quickstart
-This script, which takes the input to a file with arbitrary data in JSON format, and displays its content in the console in an easy-to-read form: adds line breaks, left indents and spaces.
 
 [TODO]
 
