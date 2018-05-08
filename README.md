@@ -8,14 +8,19 @@ Example of script launch on Linux, Python 3.5:
 
 ```bash
 
-$ python pprint_json.py <path to file>
-# Example
- [<Recursion on list with id=...>,
- 'spam',
- 'eggs',
- 'lumberjack',
- 'knights',
- 'ni']
+$ python pprint_json.py C:\bar.json
+# Example '["foo", {"bar":["baz", null, 1.0, 2]}]'
+ [
+    "foo", 
+    {
+        "bar": [
+            "baz", 
+            null, 
+            1.0, 
+            2
+        ]
+    }
+]
 
 ```
 
