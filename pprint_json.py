@@ -13,9 +13,9 @@ def pretty_print_json(parsed_data):
 if __name__ == '__main__':
     try:
         pretty_print_json(load_json(sys.argv[1]))
-    except IndexError as e:
+    except IndexError:
         print('Вы не указали путь к файлу')
-    except IOError as e:
+    except IOError:
         print('Не удалось открыть файл')
     except json.decoder.JSONDecodeError:
         print('Указанный файл не в формате json')
