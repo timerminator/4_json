@@ -4,8 +4,6 @@ This script, which takes the input to a file with arbitrary data in JSON format,
 
 # Quickstart
 
-[TODO]
-
 Example of script launch on Linux, Python 3.5:
 
 ```bash
